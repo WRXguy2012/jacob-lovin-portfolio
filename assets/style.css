@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 0 0 0;
+    border: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+header {
+    background-color: #b2beb5;
+    width: 100%;
+}
+
+h1 {
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav {
+    justify-content: right;
+    width: 
+    
+
+}
+nav li {
+    margin: 40px 40px;
+}
+
+
+/* .jake-photo1 { */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* transform: scale(1.02); */
+
+
+/* .jake-photo-left { */
+    /* background-image: url("jake-photo-left.jpg"); */
+    /* height: 600px; */
+    /* background-position: ; */
+/* } */
