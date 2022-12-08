@@ -5,79 +5,100 @@
     <title>Jacob Lovin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-    <link rel="stylesheet" type= "text/css" href="./assets/style.css">
-    <title>website</title>
+    <script src="https://kit.fontawesome.com/e47c17cec6.js" crossorigin="anonymous"></script>
+    <script href="./assets/script.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Jacob Lovin</h1>
-        <nav>
-            <div>
-                <div class="left-nav">
-                    <p>About Me</p> 
-                    <p>Featured Work</p>
-                </div>
-            </div>
-            <div class='right-nav'>
-                <div>
-                    <p>Contact Information</p>
-                    <p>links</p>
-                </div>
-            </div>    
-        </nav>
+    <header class="w3-black w3-bar">
+        <a href="#" class="w3-bar-item w3-button w3-large w3-hover-none w3-text-grey w3-hover-text-white w3-mobile" id= "nav">
+            <i class="fa-solid fa-user-tie"></i>
+            About Me
+        </a>
+        <a href="#" class="w3-bar-item w3-button w3-large w3-hover-none w3-text-grey w3-hover-text-white w3-mobile" id= "nav">
+            <i class="fa-regular fa-window-restore"></i>
+            Featured Work
+        </a>
+        <a href="#" class="w3-bar-item w3-button w3-large w3-hover-none w3-text-grey w3-hover-text-white w3-mobile" id= "nav">
+            <i class="fa-regular fa-address-book"></i>
+            Contact Information
+        </a>
+        <a href="#" class="w3-bar-item w3-button w3-large w3-hover-none w3-text-grey w3-hover-text-white w3-mobile" id= "nav">
+            <i class="fa-solid fa-paperclip"></i>
+            Links
+        </a>
     </header>
 
-    <section>
-        <img class="jake-photo1" src="./assets/jake-photo-right.jpg"></img>
-        <h2>Hello, I'm Jake!</h2>
-        <ul>
-            <li>Student</li>
-            <li>Automotive Professional</li>
-            <li>Awesome Guy</li>
-        </ul>
-    </section>
-    
-    <section>
-        <h2>Things you should know about Jake</h2>
-        <ul>
-            <li>
-                I am a student currently enrolled in the Coding Bootcamp Program 
-                at UNC Charlotte.
-            </li>
-            <li>
-                I am a professionl automotive technican with over 8 years of expierence
-                and an Associates Degree in High Performance Automotive Technology.
-            </li>
-            <li>
-                Outside of the professional work enviorment you may find me playing guitar,
-                restoring classic vehicles, rebuilding my persional computer or researching
-                a certain subject that interestes me.
-            </li>
-        </ul>
-     </section>
-
-     <section>
-        <h2>Jake's Applications</h2>
-            <div>
-                <img src="./assets/project1.png" alt="Horiseon webpage from first project">
-                <p>
-                    In my first challenge I was given functional HTML and CSS code, and was requested to modify it to meet 
-                    accesability standards. I did this by adding alt attributes for images, and other tactics to increase accessability 
-                    such as search engine optimization. I also redesigned the code to include more comments, follow sequential order, and 
-                    utilize semantic HTML elements.
-                </p>
+    <section class="w3-sans-serif">
+        <div class="w3-display-container">
+            <img src="./assets/correct-img-jake.png" alt="jake" id="imgJake">
+            <div class="w3-display-topleft w3-container namePos">
+                <h1 class="w3-sans-serif" id="nameSty">Jacob Lovin</h1>
             </div>
-            <div>
-                <p>Other applications coming soon!</p>
+            <div class="w3-display-bottomleft w3-container" id="threePos">
+                <p Class="threeSty" id="oneFact">Student</p>
+                <p Class="threeSty" id="twoFact">Automotive Professional</p>
+                <p Class="threeSty">Awesome Guy</p>
             </div>
+        </div>
     </section>
 
-    <section>
-        <h2>Jake's Contact Information</h2>
-        <ul>
-            <li>Email: lovin.jacob@gmail.com</li>
+    <div class="w3-card-4">
+        <div class="w3-container w3-dark-gray">
+            <h2>Things you should know about Jake!</h2>
+        </div>
+        <div class="w3-container w3-light-grey things">
+            <ul>
+                <li>
+                    I am a student currently enrolled in the Coding Bootcamp Program 
+                    at UNC Charlotte.
+                </li>
+                <li>
+                    I am a professionl automotive technican with over 8 years of expierence
+                    and an Associates Degree in High Performance Automotive Technology.
+                </li>
+                <li>
+                    Outside of the professional work enviorment you may find me playing guitar,
+                    restoring classic vehicles, rebuilding my persional computer or researching
+                    a certain subject that interestes me.
+                </li>
             </ul>
-    </section>
+        </div>
+        <div class="w3-container w3-grey">
+            <p></p>
+        </div>
+    </div>
+
+    <div class="w3-card-4">
+        <div class="w3-container w3-dark-gray">
+            <h2>Jake's Applications!</h2>
+        </div>
+        <div class="w3-container w3-light-grey things">
+            <h3>Marvel Character Search</h3>
+                <ul>
+                    <li>https://beaterok.github.io/Marvel-Character-Search/</li>
+                    <li>This project allows the user to search for information about any Marvel Superhero. The results bring up a short biograpghy, a photo, and a .GIF file.</li>
+                    <li>It uses data retrieved fronm two different APIs, and displays the revelant data to the user.</li>
+                    <li>This was a group project created, designed, and coded by me and three other peers.</li>
+                </ul>
+                <p>Other applications coming soon!</p>
+        </div>        
+        <div class="w3-container w3-grey">
+            <p></p>
+        </div>
+    </div>
+
+    <div class="w3-card-4">
+        <div class="w3-container w3-dark-gray">
+            <h2>Contact Jake!</h2>
+        </div>
+        <div class="w3-container w3-light-grey things">
+            <ul>
+                <li>Email: lovin.jacob@gmail.com</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,53 +1,59 @@
-* {
-    box-sizing: border-box;
-}
 html {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0 0 0 0;
     border: 0 0 0 0;
     margin: 0 0 0 0;
 }
 
-header {
-    background-color: #b2beb5;
+h2 {
+    font-size: 2.3vw;
+}
+ul li {
+    padding: 12px 0 12px 0;
+    font-size: x-large;
+}
+#nav {
+    width: 25%;
+}
+
+#imgJake {
     width: 100%;
+    opacity: .90;
+}
+.namePos {
+    padding: 0 0 0 9%;
 }
 
-h1 {
-    
+#nameSty {
+    /* font-family: */
+    font-size: 8.5vw;
+    font-weight: 700;
+    color: black;
+    /* opacity: .85; */
+    text-shadow: 7px 7px 7px #ffffff;
+    padding: 0 2px 0 0;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
+#threePos {
+    padding: 0 0 1% 6% ;
 }
 
-.left-nav {
-    display: flex;
-    align-items: center;
+.threeSty {
+    color: black;
+    font-size: 2.9vw;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 4px 4px 4px #ffffff;
+    opacity: 1;
 }
 
-.right-nav {
-    justify-content: right;
-    width: 
-    
-
-}
-nav li {
-    margin: 40px 40px;
+#oneFact {
+    margin: 0 0 16% 106%;
 }
 
+#twoFact {
+    margin: 0 0 23% 47%;
+}
 
-/* .jake-photo1 { */
-    /* height: 100%; */
-    /* width: 100%; */
-    /* transform: scale(1.02); */
-
-
-/* .jake-photo-left { */
-    /* background-image: url("jake-photo-left.jpg"); */
-    /* height: 600px; */
-    /* background-position: ; */
-/* } */
+.things {
+    font-size: x-large;
+}
